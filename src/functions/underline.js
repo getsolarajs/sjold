@@ -1,0 +1,2 @@
+const { underline } = require('discord.js');
+module.exports = { name: "$underline", description: "Formats text as underlined. Args: text", takesBrackets: true, execute: async (context, args) => { if (!args[0]) return "____"; return underline(args[0]); } }; 

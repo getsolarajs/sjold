@@ -1,0 +1,1 @@
+module.exports = { name: "$removedReactionEmoji", description: "Returns the emoji identifier from messageReactionRemove.", takesBrackets: false, execute: async (context, args) => { return context.removedReaction?.emoji?.identifier || ""; } };

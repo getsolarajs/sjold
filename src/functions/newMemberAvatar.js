@@ -1,0 +1,1 @@
+module.exports = { name: "$newMemberAvatar", description: "Returns avatar URL of the new member in guildMemberAdd/Update.", takesBrackets: false, execute: async (context, args) => { const member = context.newMember || context.member; return member?.user?.displayAvatarURL({ dynamic: true, size: 4096 }) || ""; } };

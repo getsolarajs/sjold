@@ -1,0 +1,2 @@
+const { spoiler } = require('discord.js');
+module.exports = { name: "$spoiler", description: "Formats text as spoiler. Args: text", takesBrackets: true, execute: async (context, args) => { if (!args[0]) return "||||"; return spoiler(args[0]); } };

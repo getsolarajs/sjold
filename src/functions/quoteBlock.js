@@ -1,0 +1,2 @@
+const { blockQuote } = require('discord.js');
+module.exports = { name: "$quoteBlock", description: "Formats text as block quote. Args: text", takesBrackets: true, execute: async (context, args) => { if (!args[0]) return ">>> "; return blockQuote(args[0]); } };

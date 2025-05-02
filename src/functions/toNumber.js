@@ -1,0 +1,1 @@
+module.exports = { name: "$toNumber", description: "Converts a value to a number. Args: value", takesBrackets: true, execute: async (context, args) => { if(args[0] === undefined) return "[Error: Requires value]"; const num = Number(args[0]); return isNaN(num) ? "[Error: Cannot convert to number]" : num.toString(); } };

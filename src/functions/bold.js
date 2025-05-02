@@ -1,0 +1,2 @@
+const { bold } = require('discord.js');
+module.exports = { name: "$bold", description: "Formats text as bold. Args: text", takesBrackets: true, execute: async (context, args) => { if (!args[0]) return "****"; return bold(args[0]); } };

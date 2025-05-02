@@ -1,0 +1,1 @@
+module.exports = { name: "$deletedMessageContent", description: "Returns content of the deleted message in messageDelete.", takesBrackets: false, execute: async (context, args) => { return context.deletedMessage?.content || ""; } };

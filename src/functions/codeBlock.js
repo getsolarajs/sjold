@@ -1,0 +1,2 @@
+const { codeBlock } = require('discord.js');
+module.exports = { name: "$codeBlock", description: "Formats text into a code block. Args: text;[language?]", takesBrackets: true, execute: async (context, args) => { if (!args[0]) return "``````"; return codeBlock(args[1] || '', args[0]); } };

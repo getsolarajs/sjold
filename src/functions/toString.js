@@ -1,0 +1,1 @@
+module.exports = { name: "$toString", description: "Converts a value to its string representation. Args: value", takesBrackets: true, execute: async (context, args) => { return String(args[0] ?? ""); } };

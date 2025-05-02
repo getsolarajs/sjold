@@ -1,0 +1,1 @@
+module.exports = { name: "$oldRoleName", description: "Returns name of the old role state in roleUpdate.", takesBrackets: false, execute: async (context, args) => { return context.oldRole?.name || ""; } };

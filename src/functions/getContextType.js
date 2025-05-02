@@ -1,0 +1,1 @@
+module.exports = { name: "$getContextType", description: "Returns the type of execution context (Message/Interaction).", takesBrackets: false, execute: async (context, args) => { if (context.interaction) return "Interaction"; if (context.message) return "Message"; return "Unknown"; } };

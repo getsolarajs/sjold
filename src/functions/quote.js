@@ -1,0 +1,2 @@
+const { quote } = require('discord.js');
+module.exports = { name: "$quote", description: "Formats text as inline quote. Args: text", takesBrackets: true, execute: async (context, args) => { if (!args[0]) return "> "; return quote(args[0]); } };

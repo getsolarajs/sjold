@@ -1,0 +1,1 @@
+module.exports = { name: "$oldMessageContent", description: "Returns content of the old message in messageUpdate.", takesBrackets: false, execute: async (context, args) => { return context.oldMessage?.content || ""; } };

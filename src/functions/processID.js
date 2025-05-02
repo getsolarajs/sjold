@@ -1,0 +1,1 @@
+module.exports = { name: "$processID", description: "Returns the process ID (PID) of the bot.", takesBrackets: false, execute: async (context, args) => { return process.pid.toString(); } };

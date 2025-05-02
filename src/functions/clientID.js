@@ -1,0 +1,1 @@
+module.exports = { name: "$clientID", description: "Alias for $botID.", takesBrackets: false, execute: async (context, args) => { return context.client.user.id; } };

@@ -1,0 +1,2 @@
+const StopExecutionError = require('../errors/StopExecutionError');
+module.exports = { name: "$stopExecution", description: "Stops command execution silently. Args: [message?]", takesBrackets: true, execute: async (context, args) => { throw new StopExecutionError(args.join(';') || ""); } };

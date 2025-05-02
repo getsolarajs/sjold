@@ -1,0 +1,1 @@
+module.exports = { name: "$toBoolean", description: "Converts a value to boolean ('true'/'false'). Args: value", takesBrackets: true, execute: async (context, args) => { const val = args[0]?.toLowerCase().trim(); return (val === 'true' || val === 'yes' || val === '1').toString(); } };

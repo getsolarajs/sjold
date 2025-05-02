@@ -1,0 +1,2 @@
+const { inlineCode } = require('discord.js');
+module.exports = { name: "$inlineCode", description: "Formats text as inline code. Args: text", takesBrackets: true, execute: async (context, args) => { if (!args[0]) return "``"; return inlineCode(args[0]); } };

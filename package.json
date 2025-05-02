@@ -1,0 +1,70 @@
+{
+  "name": "@getsolara/solara.js",
+  "version": "0.2.2",
+  "description": "A lightweight and modular Discord bot framework inspired by BDScript, built on discord.js v14.",
+  "main": "src/index.js",
+  "types": "src/index.d.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "eslint .",
+    "docs:generate": "jsdoc -c jsdoc.json"
+  },
+  "files": [
+    "src",
+    "LICENSE",
+    "README.md"
+  ],
+  "keywords": [
+    "discord",
+    "discord.js",
+    "bot",
+    "framework",
+    "aoi.js",
+    "bdscript",
+    "bds"
+  ],
+  "author": "getsolara",
+  "license": "MIT",
+  "dependencies": {
+    "discord.js": "^14.11.0",
+    "quick.db": "^9.1.7",
+    "better-sqlite3": "^11.9.1"
+  },
+  "peerDependencies": {
+    "@discordjs/voice": "^0.18.0",
+    "ffmpeg-static": "^5.2.0",
+    "opusscript": "^0.0.8",
+    "play-dl": "^1.9.7",
+    "genius-lyrics-api": "^3.2.1",
+    "lyrics-finder": "^21.7.0",
+    "axios": "^1.4.0",
+    "xml2js": "^0.6.2",
+    "he": "^1.2.0",
+    "canvas": "^3.1.0",
+    "canvafy": "^7.2.1",
+    "mathjs": "^14.4.0"
+  },
+  "peerDependenciesMeta": {
+    "@discordjs/voice": { "optional": true },
+    "ffmpeg-static": { "optional": true },
+    "opusscript": { "optional": true },
+    "play-dl": { "optional": true },
+    "genius-lyrics-api": { "optional": true },
+    "lyrics-finder": { "optional": true },
+    "axios": { "optional": true },
+    "xml2js": { "optional": true },
+    "he": { "optional": true },
+    "canvas": { "optional": true },
+    "canvafy": { "optional": true },
+    "mathjs": { "optional": true }
+  },
+  "devDependencies": {
+    "@types/node": "^22.14.1",
+    "eslint": "^8.43.0",
+    "jsdoc": "^4.0.2",
+    "nodemon": "^3.1.9"
+  },
+  "engines": {
+    "node": ">=16.9.0"
+  }
+}

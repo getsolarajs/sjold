@@ -1,0 +1,2 @@
+const { escapeMarkdown } = require('discord.js');
+module.exports = { name: "$escapeMarkdown", description: "Escapes Discord markdown characters. Args: text", takesBrackets: true, execute: async (context, args) => { if (!args[0]) return ""; return escapeMarkdown(args[0]); } };

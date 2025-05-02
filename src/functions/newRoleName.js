@@ -1,0 +1,1 @@
+module.exports = { name: "$newRoleName", description: "Returns name of the new/updated role in roleCreate/Update.", takesBrackets: false, execute: async (context, args) => { const role = context.newRole || context.createdRole; return role?.name || ""; } };

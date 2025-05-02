@@ -1,0 +1,2 @@
+const { strikethrough } = require('discord.js');
+module.exports = { name: "$strikethrough", description: "Formats text as strikethrough. Args: text", takesBrackets: true, execute: async (context, args) => { if (!args[0]) return "~~~~"; return strikethrough(args[0]); } };

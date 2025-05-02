@@ -1,0 +1,1 @@
+module.exports = { name: "$getComponentData", description: "Retrieves JSON data for a component by customID from last message [Not Implemented Reliably]", takesBrackets: true, execute: async (context, args) => { return "[Error: Reliable component data retrieval not implemented]"; } };

@@ -1,0 +1,1 @@
+module.exports = { name: "$newStateChannelID", description: "Returns channel ID from the new state in voiceStateUpdate.", takesBrackets: false, execute: async (context, args) => { return context.newState?.channelId || ""; } };

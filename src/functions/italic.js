@@ -1,0 +1,2 @@
+const { italic } = require('discord.js');
+module.exports = { name: "$italic", description: "Formats text as italic. Args: text", takesBrackets: true, execute: async (context, args) => { if (!args[0]) return "**"; return italic(args[0]); } };
