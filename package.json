@@ -23,7 +23,7 @@
     "bdscript",
     "bds"
   ],
-  "author": "getsolara",
+  "author": "Samhey-debug",
   "license": "MIT",
   "dependencies": {
     "discord.js": "^14.11.0",
